@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
 import MessengerContract from './Messenger.json'; // Import the ABI
 
-const MESSENGER_ADDRESS = '0xYourContractAddress'; // Replace with your contract address
+const MESSENGER_ADDRESS = '0xe2e11fe53bea53cbef2efd5d6eda1e910c305477'; // Replace with your contract address
 
 const Messenger = () => {
     const [account, setAccount] = useState('');
